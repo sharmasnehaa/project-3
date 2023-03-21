@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Social Media Survery</h1>
+    <form id="form">
+        <div class="form-ctr">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-ctr">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-ctr">
+            <label for="age" id="label-age">Age</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+        <div class="form-ctr">
+            <label for="gender" id="label-gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="form-ctr">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-ctr">
+            <label>
+                Which social media channels are you most active on?
+            </label>
+            <label for="media-1">
+                <input type="checkbox" name="media">Facebook</input></label>
+            <label for="media-2">
+                <input type="checkbox" name="media">Twitter</input></label>
+            <label for="media-3">
+                <input type="checkbox" name="media">Instagram</input></label>
+            <label for="media-4">
+                <input type="checkbox" name="media">Whatsapp</input></label>
+            <label for="media-5">
+                <input type="checkbox" name="media">LinkedIn</input></label>
+            <label for="media-6">
+                <input type="checkbox" name="media">Pinterest</input></label>
+            <label for="media-7">
+                <input type="checkbox" name="media">Snapchat</input></label>
+        </div>
+        <div class="form-ctr">
+            <label>
+                Has social media had any effect on your mental health?
+            </label>
+            <label for="imp-1">
+                <input type="radio" name="imp">Yes</input></label>
+            <label for="imp-2">
+                <input type="radio" name="imp">No</input></label>
+            <label for="imp-3">
+                <input type="radio" name="imp">Maybe</input></label>
+        </div>
+        <div class="form-ctr">
+            <label>
+                How many hours do you spend on social media every day?
+            </label>
+            <label for="time-1">
+                <input type="radio" name="tym">1 hour</input></label>
+            <label for="time-2">
+                <input type="radio" name="tym">2-3 hour</input></label>
+            <label for="time-3">
+                <input type="radio" name="tym">More than 5 hour</input></label>
+        </div>
+        <div class="form-ctr">
+            <label>
+                How often do you post on social media?
+            </label>
+            <label for="post-1">
+                <input type="radio" name="post">Very often</input></label>
+            <label for="post-2">
+                <input type="radio" name="post">Somewhat often</input></label>
+            <label for="post-3">
+                <input type="radio" name="post">Rarely</input></label>
+            </div>
+        <div class="form-ctr">
+            <label>
+                Is social media the first thing you check in morning?
+            </label>
+            <label for="check-1">
+                <input type="radio" name="check">Yes</input></label>
+            <label for="check-2">
+                <input type="radio" name="check">No</input></label>
+        </div>
+        <div class="form-ctr">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
